@@ -1,0 +1,3 @@
+2025-07-17 16:48:44,968 - dropbox - INFO - Refreshing access token.
+2025-07-17 16:48:45,240 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 16:48:45,440 - __main__ - ERROR - Error initializing Dropbox: BadInputError('84cdbe54b91744928123ee58676be7c5', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')

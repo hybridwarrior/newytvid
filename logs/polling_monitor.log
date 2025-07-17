@@ -1,0 +1,78 @@
+2025-07-17 16:59:22,984 - __main__ - INFO - Loaded 66 processed files
+2025-07-17 16:59:22,984 - __main__ - INFO - Successfully connected to Dropbox
+2025-07-17 16:59:22,984 - __main__ - INFO - Starting polling monitor with integrated clipper
+2025-07-17 16:59:22,984 - __main__ - INFO - Monitoring folder: /Video Content/Final Cuts/YouTube
+2025-07-17 16:59:22,984 - __main__ - INFO - Check interval: 1 minutes
+2025-07-17 16:59:22,984 - __main__ - INFO - Checking folder: /Video Content/Final Cuts/YouTube
+2025-07-17 16:59:22,984 - dropbox - INFO - Refreshing access token.
+2025-07-17 16:59:23,244 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:59:23,681 - __main__ - INFO - No new video files found
+2025-07-17 16:59:23,681 - __main__ - INFO - Sleeping for 1 minutes...
+2025-07-17 17:00:23,682 - __main__ - INFO - Checking folder: /Video Content/Final Cuts/YouTube
+2025-07-17 17:00:23,682 - dropbox - INFO - Request to files/list_folder
+2025-07-17 17:00:24,125 - __main__ - INFO - No new video files found
+2025-07-17 17:00:24,125 - __main__ - INFO - Sleeping for 1 minutes...
+2025-07-17 17:01:24,128 - __main__ - INFO - Checking folder: /Video Content/Final Cuts/YouTube
+2025-07-17 17:01:24,128 - dropbox - INFO - Request to files/list_folder
+2025-07-17 17:01:24,575 - __main__ - INFO - No new video files found
+2025-07-17 17:01:24,575 - __main__ - INFO - Sleeping for 1 minutes...
+2025-07-17 17:02:24,576 - __main__ - INFO - Checking folder: /Video Content/Final Cuts/YouTube
+2025-07-17 17:02:24,576 - dropbox - INFO - Request to files/list_folder
+2025-07-17 17:02:24,998 - __main__ - INFO - No new video files found
+2025-07-17 17:02:24,998 - __main__ - INFO - Sleeping for 1 minutes...
+2025-07-17 17:03:24,999 - __main__ - INFO - Checking folder: /Video Content/Final Cuts/YouTube
+2025-07-17 17:03:24,999 - dropbox - INFO - Request to files/list_folder
+2025-07-17 17:03:25,421 - __main__ - INFO - No new video files found
+2025-07-17 17:03:25,421 - __main__ - INFO - Sleeping for 1 minutes...
+2025-07-17 17:04:25,421 - __main__ - INFO - Checking folder: /Video Content/Final Cuts/YouTube
+2025-07-17 17:04:25,422 - dropbox - INFO - Request to files/list_folder
+2025-07-17 17:04:25,851 - __main__ - INFO - No new video files found
+2025-07-17 17:04:25,851 - __main__ - INFO - Sleeping for 1 minutes...
+2025-07-17 17:05:25,851 - __main__ - INFO - Checking folder: /Video Content/Final Cuts/YouTube
+2025-07-17 17:05:25,852 - dropbox - INFO - Request to files/list_folder
+2025-07-17 17:05:26,320 - __main__ - INFO - No new video files found
+2025-07-17 17:05:26,320 - __main__ - INFO - Sleeping for 1 minutes...
+2025-07-17 17:06:26,321 - __main__ - INFO - Checking folder: /Video Content/Final Cuts/YouTube
+2025-07-17 17:06:26,321 - dropbox - INFO - Request to files/list_folder
+2025-07-17 17:06:27,440 - __main__ - INFO - No new video files found
+2025-07-17 17:06:27,440 - __main__ - INFO - Sleeping for 1 minutes...
+2025-07-17 17:07:27,441 - __main__ - INFO - Checking folder: /Video Content/Final Cuts/YouTube
+2025-07-17 17:07:27,441 - dropbox - INFO - Request to files/list_folder
+2025-07-17 17:07:28,116 - __main__ - INFO - No new video files found
+2025-07-17 17:07:28,116 - __main__ - INFO - Sleeping for 1 minutes...
+2025-07-17 17:08:28,116 - __main__ - INFO - Checking folder: /Video Content/Final Cuts/YouTube
+2025-07-17 17:08:28,117 - dropbox - INFO - Request to files/list_folder
+2025-07-17 17:08:28,843 - __main__ - INFO - No new video files found
+2025-07-17 17:08:28,843 - __main__ - INFO - Sleeping for 1 minutes...
+2025-07-17 17:09:28,843 - __main__ - INFO - Checking folder: /Video Content/Final Cuts/YouTube
+2025-07-17 17:09:28,844 - dropbox - INFO - Request to files/list_folder
+2025-07-17 17:09:29,581 - __main__ - INFO - No new video files found
+2025-07-17 17:09:29,581 - __main__ - INFO - Sleeping for 1 minutes...
+2025-07-17 17:10:29,582 - __main__ - INFO - Checking folder: /Video Content/Final Cuts/YouTube
+2025-07-17 17:10:29,582 - dropbox - INFO - Request to files/list_folder
+2025-07-17 17:10:30,023 - __main__ - INFO - Found new video: 29_04 (Oliver).mp4
+2025-07-17 17:10:30,023 - __main__ - INFO - Processing new video: 29_04 (Oliver).mp4
+2025-07-17 17:10:30,025 - scripts.pipeline_processor_integrated - INFO - Successfully connected to Dropbox
+2025-07-17 17:10:30,025 - scripts.pipeline_processor_integrated - INFO - Processing file: 29_04 (Oliver).mp4
+2025-07-17 17:10:30,025 - scripts.pipeline_processor_integrated - INFO - Downloading file: /Video Content/Final Cuts/YouTube/29_04 (Oliver).mp4
+2025-07-17 17:10:30,025 - dropbox - INFO - Refreshing access token.
+2025-07-17 17:10:30,304 - dropbox - INFO - Request to files/download
+2025-07-17 17:10:46,729 - scripts.pipeline_processor_integrated - INFO - File downloaded successfully: /opt/new-yt/data/downloads/29_04 (Oliver).mp4
+2025-07-17 17:10:46,759 - scripts.pipeline_processor_integrated - INFO - Processing video with integrated clipper...
+2025-07-17 17:15:37,607 - scripts.pipeline_processor_integrated - INFO - Integrated clipper completed successfully
+2025-07-17 17:15:37,608 - scripts.pipeline_processor_integrated - INFO - Successfully processed file: id:CxcjfpBq8f8AAAAAAAAKOA
+2025-07-17 17:15:37,724 - scripts.pipeline_processor_integrated - INFO - Cleaned up: /opt/new-yt/data/downloads/29_04 (Oliver).mp4
+2025-07-17 17:15:37,726 - __main__ - INFO - Processed 1 new video files
+2025-07-17 17:15:37,726 - __main__ - INFO - Sleeping for 1 minutes...
+2025-07-17 17:16:37,727 - __main__ - INFO - Checking folder: /Video Content/Final Cuts/YouTube
+2025-07-17 17:16:37,727 - dropbox - INFO - Request to files/list_folder
+2025-07-17 17:16:38,242 - __main__ - INFO - No new video files found
+2025-07-17 17:16:38,242 - __main__ - INFO - Sleeping for 1 minutes...
+2025-07-17 17:17:38,243 - __main__ - INFO - Checking folder: /Video Content/Final Cuts/YouTube
+2025-07-17 17:17:38,243 - dropbox - INFO - Request to files/list_folder
+2025-07-17 17:17:38,693 - __main__ - INFO - No new video files found
+2025-07-17 17:17:38,693 - __main__ - INFO - Sleeping for 1 minutes...
+2025-07-17 17:18:38,694 - __main__ - INFO - Checking folder: /Video Content/Final Cuts/YouTube
+2025-07-17 17:18:38,694 - dropbox - INFO - Request to files/list_folder
+2025-07-17 17:18:39,115 - __main__ - INFO - No new video files found
+2025-07-17 17:18:39,115 - __main__ - INFO - Sleeping for 1 minutes...

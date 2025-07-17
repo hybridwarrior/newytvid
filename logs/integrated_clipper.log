@@ -1,0 +1,195 @@
+2025-07-17 15:58:16,850 - __main__ - INFO - Successfully connected to Dropbox
+2025-07-17 15:58:16,850 - __main__ - INFO - Starting integrated clipping pipeline for: /opt/clipper/data/input/0714 (1).mov
+2025-07-17 15:58:16,850 - __main__ - INFO - Transcribing video: /opt/clipper/data/input/0714 (1).mov
+2025-07-17 15:58:45,637 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 413 Payload Too Large"
+2025-07-17 15:58:45,639 - __main__ - ERROR - Transcription failed: Error code: 413 - {'error': {'message': '413: Maximum content size limit (26214400) exceeded (26390202 bytes read)', 'type': 'server_error', 'param': None, 'code': None}}
+2025-07-17 15:58:45,639 - __main__ - ERROR - Pipeline failed for 0714 (1).mov: Error code: 413 - {'error': {'message': '413: Maximum content size limit (26214400) exceeded (26390202 bytes read)', 'type': 'server_error', 'param': None, 'code': None}}
+2025-07-17 15:59:16,227 - __main__ - INFO - Successfully connected to Dropbox
+2025-07-17 15:59:16,227 - __main__ - INFO - Starting integrated clipping pipeline for: /opt/clipper/data/input/0714 (1).mov
+2025-07-17 15:59:16,227 - __main__ - INFO - Transcribing video: /opt/clipper/data/input/0714 (1).mov
+2025-07-17 15:59:42,494 - __main__ - INFO - Audio file is large (31861788 bytes), splitting into chunks
+2025-07-17 16:00:13,967 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 16:00:45,806 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 16:00:57,300 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 16:01:10,614 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 16:01:18,090 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 16:01:18,120 - __main__ - INFO - Transcription completed successfully
+2025-07-17 16:01:18,121 - __main__ - INFO - Getting clip suggestions from AI
+2025-07-17 16:01:35,421 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 16:01:35,427 - __main__ - ERROR - Failed to get clip suggestions: Expecting value: line 1 column 1 (char 0)
+2025-07-17 16:01:35,427 - __main__ - ERROR - Pipeline failed for 0714 (1).mov: Expecting value: line 1 column 1 (char 0)
+2025-07-17 16:02:00,083 - __main__ - INFO - Successfully connected to Dropbox
+2025-07-17 16:02:00,083 - __main__ - INFO - Starting integrated clipping pipeline for: /opt/clipper/data/input/0714 (1).mov
+2025-07-17 16:02:00,083 - __main__ - INFO - Transcribing video: /opt/clipper/data/input/0714 (1).mov
+2025-07-17 16:02:23,741 - __main__ - INFO - Audio file is large (31861788 bytes), splitting into chunks
+2025-07-17 16:02:54,782 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 16:03:10,214 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 16:03:25,356 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 16:03:36,321 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 16:03:44,378 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 16:03:44,406 - __main__ - INFO - Transcription completed successfully
+2025-07-17 16:03:44,407 - __main__ - INFO - Getting clip suggestions from AI
+2025-07-17 16:03:48,696 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 16:03:48,702 - __main__ - INFO - Raw AI response: I'm sorry for the confusion, but I can't provide the time stamps or evaluate the video content as you're asking for it. The data you've given is a text transcript, and I can't watch videos or evaluate their content as a language AI model.
+2025-07-17 16:03:48,702 - __main__ - ERROR - Failed to get clip suggestions: Expecting value: line 1 column 1 (char 0)
+2025-07-17 16:03:48,702 - __main__ - ERROR - Pipeline failed for 0714 (1).mov: Expecting value: line 1 column 1 (char 0)
+2025-07-17 16:04:05,461 - __main__ - INFO - Successfully connected to Dropbox
+2025-07-17 16:04:05,461 - __main__ - INFO - Starting integrated clipping pipeline for: /opt/clipper/data/input/0714 (1).mov
+2025-07-17 16:04:05,461 - __main__ - INFO - Transcribing video: /opt/clipper/data/input/0714 (1).mov
+2025-07-17 16:04:28,674 - __main__ - INFO - Audio file is large (31861788 bytes), splitting into chunks
+2025-07-17 16:04:54,016 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 16:05:07,672 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 16:05:22,778 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 16:05:37,977 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 16:05:43,493 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 16:05:43,524 - __main__ - INFO - Transcription completed successfully
+2025-07-17 16:05:43,524 - __main__ - INFO - Getting clip suggestions from AI
+2025-07-17 16:05:56,815 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 16:05:56,819 - __main__ - INFO - Raw AI response: {
+    "clips": [
+        {
+            "title": "Oracle Chronicles: Sparring with Lucas",
+            "start_time": "0:30",
+            "end_time": "1:30",
+            "description": "This segment is engaging because it shows the host's sparring session with Lucas, showcasing their competitive yet playful dynamic."
+        },
+        {
+            "title": "Don't Come Over the Front Knee: Boxing Tips",
+            "start_time": "1:45",
+            "end_time": "2:45",
+            "description": "This clip provides valuable boxing tips for viewers, showing the host's expertise and making it educational."
+        },
+        {
+            "title": "Oracle Chronicles: 12-Round Sparring",
+            "start_time": "4:00",
+            "end_time": "5:00",
+            "description": "This part of the video is particularly engaging as it shows the host's impressive endurance during a 12-round sparring session."
+        },
+        {
+            "title": "Boxing Drill: Noodle Drills",
+            "start_time": "6:00",
+            "end_time": "7:00",
+            "description": "This segment is interesting because it introduces a unique boxing drill called 'noodle drills', which could be helpful for viewers who are into boxing."
+        }
+    ]
+}
+2025-07-17 16:05:56,819 - __main__ - INFO - Generated 4 clip suggestions
+2025-07-17 16:05:56,819 - __main__ - INFO - Extracting 4 clips from video
+2025-07-17 16:07:09,489 - __main__ - INFO - Extracted clip: 0714 (1)_00_Oracle-Chronicles-Sparring-with-Lucas.mp4
+2025-07-17 16:08:24,016 - __main__ - INFO - Extracted clip: 0714 (1)_01_Dont-Come-Over-the-Front-Knee-Boxing-Tips.mp4
+2025-07-17 16:10:10,690 - __main__ - INFO - Extracted clip: 0714 (1)_02_Oracle-Chronicles-12-Round-Sparring.mp4
+2025-07-17 16:11:58,239 - __main__ - INFO - Extracted clip: 0714 (1)_03_Boxing-Drill-Noodle-Drills.mp4
+2025-07-17 16:11:58,239 - __main__ - INFO - Uploading 4 clips to Dropbox
+2025-07-17 16:11:58,249 - __main__ - ERROR - Failed to upload 0714 (1)_00_Oracle-Chronicles-Sparring-with-Lucas.mp4: expected type dropbox.files.WriteMode or subtype, got string
+2025-07-17 16:11:58,258 - __main__ - ERROR - Failed to upload 0714 (1)_01_Dont-Come-Over-the-Front-Knee-Boxing-Tips.mp4: expected type dropbox.files.WriteMode or subtype, got string
+2025-07-17 16:11:58,270 - __main__ - ERROR - Failed to upload 0714 (1)_02_Oracle-Chronicles-12-Round-Sparring.mp4: expected type dropbox.files.WriteMode or subtype, got string
+2025-07-17 16:11:58,274 - __main__ - ERROR - Failed to upload 0714 (1)_03_Boxing-Drill-Noodle-Drills.mp4: expected type dropbox.files.WriteMode or subtype, got string
+2025-07-17 16:11:58,274 - __main__ - INFO - Sending Slack notification
+2025-07-17 16:11:58,518 - __main__ - INFO - Slack notification sent successfully
+2025-07-17 16:11:58,531 - __main__ - INFO - Successfully processed 0714 (1).mov
+2025-07-17 16:13:47,429 - __main__ - INFO - Successfully connected to Dropbox
+2025-07-17 16:13:47,430 - __main__ - INFO - Starting integrated clipping pipeline for: /opt/clipper/data/input/0714 (1).mov
+2025-07-17 16:13:47,430 - __main__ - INFO - Transcribing video: /opt/clipper/data/input/0714 (1).mov
+2025-07-17 16:14:12,452 - __main__ - INFO - Audio file is large (31861788 bytes), splitting into chunks
+2025-07-17 16:14:38,293 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 16:14:56,657 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 16:15:11,132 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 16:15:22,891 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 16:15:31,928 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 16:15:31,958 - __main__ - INFO - Transcription completed successfully
+2025-07-17 16:15:31,958 - __main__ - INFO - Getting clip suggestions from AI
+2025-07-17 16:15:46,169 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 16:15:46,177 - __main__ - INFO - Raw AI response: {
+    "clips": [
+        {
+            "title": "Lucas vs Host Sparring Session",
+            "start_time": "1:00",
+            "end_time": "2:30",
+            "description": "This segment is engaging because it showcases the dynamic between the host and Lucas in a playful boxing match while also providing practical boxing advice."
+        },
+        {
+            "title": "Boxing Tips and Tricks",
+            "start_time": "3:30",
+            "end_time": "5:00",
+            "description": "The host shares valuable boxing tips and demonstrates them in action during a sparring session. This is engaging as it provides viewers with practical information they can apply."
+        },
+        {
+            "title": "Endurance Sparring Session",
+            "start_time": "7:30",
+            "end_time": "9:00",
+            "description": "The host takes on an endurance sparring session, demonstrating his skills and resilience. This segment is engaging due to the intense nature of the activity, capturing viewers' attention."
+        },
+        {
+            "title": "Training with Tony",
+            "start_time": "12:30",
+            "end_time": "13:30",
+            "description": "This segment shows the host's training session with Tony, providing insight into their relationship as well as the training process. It's engaging because it offers a behind-the-scenes look at the host's training regimen."
+        }
+    ]
+}
+2025-07-17 16:15:46,177 - __main__ - INFO - Generated 4 clip suggestions
+2025-07-17 16:15:46,178 - __main__ - INFO - Extracting 4 clips from video
+2025-07-17 16:17:32,608 - __main__ - INFO - Extracted clip: 0714 (1)_00_Lucas-vs-Host-Sparring-Session.mp4
+2025-07-17 16:19:56,596 - __main__ - INFO - Extracted clip: 0714 (1)_01_Boxing-Tips-and-Tricks.mp4
+2025-07-17 16:22:44,501 - __main__ - INFO - Extracted clip: 0714 (1)_02_Endurance-Sparring-Session.mp4
+2025-07-17 17:10:47,239 - __main__ - INFO - Successfully connected to Dropbox
+2025-07-17 17:10:47,239 - __main__ - INFO - Starting integrated clipping pipeline for: /opt/new-yt/data/downloads/29_04 (Oliver).mp4
+2025-07-17 17:10:47,239 - __main__ - INFO - Transcribing video: /opt/new-yt/data/downloads/29_04 (Oliver).mp4
+2025-07-17 17:11:43,769 - __main__ - INFO - Audio file is large (90631660 bytes), splitting into chunks
+2025-07-17 17:12:04,395 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 17:12:19,484 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 17:12:29,903 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 17:12:41,407 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 17:12:52,630 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 17:13:04,710 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 17:13:20,598 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 17:13:31,369 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 17:13:41,481 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 17:13:54,043 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 17:14:06,011 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 17:14:22,930 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 17:14:30,723 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-07-17 17:14:30,789 - __main__ - INFO - Transcription completed successfully
+2025-07-17 17:14:30,789 - __main__ - INFO - Getting clip suggestions from AI
+2025-07-17 17:14:41,546 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-17 17:14:41,558 - __main__ - INFO - Raw AI response: {
+    "clips": [
+        {
+            "title": "Boxing Basics: The 1-2 Slip Drill",
+            "start_time": "0:00",
+            "end_time": "1:30",
+            "description": "This segment introduces the basic 1-2 slip drill, a key boxing technique. Oliver explains and demonstrates the move, making it highly engaging and instructional for boxing enthusiasts."
+        },
+        {
+            "title": "Perfecting the 1-2 Slip Technique",
+            "start_time": "2:00",
+            "end_time": "3:15",
+            "description": "Oliver corrects common mistakes and gives tips to improve the 1-2 slip technique. This segment provides practical tips and advice, making it highly engaging for viewers who are learning boxing."
+        },
+        {
+            "title": "The Importance of Rotation and Hinge in Boxing",
+            "start_time": "3:45",
+            "end_time": "4:45",
+            "description": "This segment highlights the importance of body rotation and hip hinge in boxing. Oliver's detailed explanation of these crucial elements makes this clip engaging for viewers interested in improving their boxing skills."
+        }
+    ]
+}
+2025-07-17 17:14:41,559 - __main__ - INFO - Generated 3 clip suggestions
+2025-07-17 17:14:41,559 - __main__ - INFO - Extracting 3 clips from video
+2025-07-17 17:14:57,435 - __main__ - INFO - Extracted clip: 29_04 (Oliver)_00_Boxing-Basics-The-1-2-Slip-Drill.mp4
+2025-07-17 17:15:13,054 - __main__ - INFO - Extracted clip: 29_04 (Oliver)_01_Perfecting-the-1-2-Slip-Technique.mp4
+2025-07-17 17:15:27,724 - __main__ - INFO - Extracted clip: 29_04 (Oliver)_02_The-Importance-of-Rotation-and-Hinge-in-Boxing.mp4
+2025-07-17 17:15:27,724 - __main__ - INFO - Uploading 3 clips to Dropbox
+2025-07-17 17:15:27,729 - dropbox - INFO - Refreshing access token.
+2025-07-17 17:15:27,997 - dropbox - INFO - Request to files/upload
+2025-07-17 17:15:29,807 - dropbox - INFO - Request to sharing/create_shared_link_with_settings
+2025-07-17 17:15:31,183 - __main__ - INFO - Uploaded: 29_04 (Oliver)_00_Boxing-Basics-The-1-2-Slip-Drill.mp4
+2025-07-17 17:15:31,193 - dropbox - INFO - Request to files/upload
+2025-07-17 17:15:32,939 - dropbox - INFO - Request to sharing/create_shared_link_with_settings
+2025-07-17 17:15:34,451 - __main__ - INFO - Uploaded: 29_04 (Oliver)_01_Perfecting-the-1-2-Slip-Technique.mp4
+2025-07-17 17:15:34,452 - dropbox - INFO - Request to files/upload
+2025-07-17 17:15:35,840 - dropbox - INFO - Request to sharing/create_shared_link_with_settings
+2025-07-17 17:15:37,228 - __main__ - INFO - Uploaded: 29_04 (Oliver)_02_The-Importance-of-Rotation-and-Hinge-in-Boxing.mp4
+2025-07-17 17:15:37,228 - __main__ - INFO - Sending Slack notification
+2025-07-17 17:15:37,439 - __main__ - INFO - Slack notification sent successfully
+2025-07-17 17:15:37,452 - __main__ - INFO - Successfully processed 29_04 (Oliver).mp4

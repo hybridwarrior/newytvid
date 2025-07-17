@@ -1,0 +1,19 @@
+[Unit]
+Description=Dropbox Webhook Server
+After=network.target
+
+[Service]
+Type=exec
+User=root
+WorkingDirectory=/opt/new-yt
+Environment="PATH=/opt/new-yt/venv/bin:/usr/local/bin:/usr/bin:/bin"
+ExecStart=/opt/new-yt/venv/bin/python scripts/webhook_server.py
+Restart=always
+RestartSec=10
+
+# Logging
+StandardOutput=append:/opt/new-yt/logs/webhook_server.log
+StandardError=append:/opt/new-yt/logs/webhook_server_error.log
+
+[Install]
+WantedBy=multi-user.target

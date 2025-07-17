@@ -1,0 +1,7 @@
+2025-07-17 16:52:10,197 - scripts.pipeline_processor_integrated - INFO - Successfully connected to Dropbox
+2025-07-17 16:52:10,198 - scripts.pipeline_processor_integrated - INFO - Processing file: 0714 (1).mov
+2025-07-17 16:52:10,198 - scripts.pipeline_processor_integrated - INFO - Downloading file: /opt/clipper/data/input/0714 (1).mov
+2025-07-17 16:52:10,198 - dropbox - INFO - Refreshing access token.
+2025-07-17 16:52:10,463 - dropbox - INFO - Request to files/download
+2025-07-17 16:52:10,852 - scripts.pipeline_processor_integrated - ERROR - Dropbox API error: ApiError('2bbe6b2d0574417f83f62a53e4915d83', DownloadError('path', LookupError('not_found', None)))
+2025-07-17 16:52:10,852 - scripts.pipeline_processor_integrated - ERROR - Error processing file: Failed to download file

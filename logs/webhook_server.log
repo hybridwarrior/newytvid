@@ -1,0 +1,735 @@
+2025-07-17 14:41:22,549 - __main__ - INFO - Starting webhook server on 127.0.0.1:8080
+2025-07-17 14:41:22,550 - __main__ - INFO - Running in production mode - configure nginx to proxy to this server
+2025-07-17 14:41:22,550 - __main__ - INFO - Webhook URL should be: https://your-domain.com/dropbox-webhook
+2025-07-17 14:41:22,550 - __main__ - INFO - Monitoring folder: /All files/Video Content/Final Cuts
+2025-07-17 14:41:22,554 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-07-17 14:41:22,554 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-17 14:45:47,448 - __main__ - INFO - Received webhook verification request
+2025-07-17 14:45:47,461 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 14:45:47] "GET /webhook?challenge=test_challenge HTTP/1.1" 200 -
+2025-07-17 14:47:08,988 - __main__ - INFO - Starting webhook server on 127.0.0.1:8080
+2025-07-17 14:47:08,988 - __main__ - INFO - Running in production mode - configure nginx to proxy to this server
+2025-07-17 14:47:08,988 - __main__ - INFO - Webhook URL should be: https://your-domain.com/dropbox-webhook
+2025-07-17 14:47:08,988 - __main__ - INFO - Monitoring folder: /All files/Video Content/Final Cuts
+ * Serving Flask app 'webhook_server'
+ * Debug mode: off
+2025-07-17 14:47:08,991 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-07-17 14:47:08,991 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-17 14:47:47,609 - __main__ - INFO - Received webhook verification request
+2025-07-17 14:47:47,611 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 14:47:47] "GET /webhook?challenge=test_from_dropbox HTTP/1.1" 200 -
+2025-07-17 14:47:58,399 - __main__ - INFO - Received webhook verification request
+2025-07-17 14:47:58,400 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 14:47:58] "GET /webhook?challenge=2EkKY_WaYK7o-HT43_fwM8He-6jwbyVZIr52MWH7W5Y HTTP/1.1" 200 -
+2025-07-17 14:51:15,323 - __main__ - ERROR - Error processing webhook: 'str' object has no attribute 'get'
+2025-07-17 14:51:15,324 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 14:51:15] "[35m[1mPOST /webhook HTTP/1.1[0m" 500 -
+2025-07-17 14:51:33,963 - __main__ - ERROR - Error processing webhook: 'str' object has no attribute 'get'
+2025-07-17 14:51:33,963 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 14:51:33] "[35m[1mPOST /webhook HTTP/1.1[0m" 500 -
+2025-07-17 14:51:35,853 - __main__ - ERROR - Error processing webhook: 'str' object has no attribute 'get'
+2025-07-17 14:51:35,854 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 14:51:35] "[35m[1mPOST /webhook HTTP/1.1[0m" 500 -
+2025-07-17 14:52:03,523 - __main__ - ERROR - Error processing webhook: 'str' object has no attribute 'get'
+2025-07-17 14:52:03,523 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 14:52:03] "[35m[1mPOST /webhook HTTP/1.1[0m" 500 -
+2025-07-17 14:53:42,850 - __main__ - ERROR - Error processing webhook: 'str' object has no attribute 'get'
+2025-07-17 14:53:42,850 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 14:53:42] "[35m[1mPOST /webhook HTTP/1.1[0m" 500 -
+2025-07-17 14:53:44,561 - __main__ - ERROR - Error processing webhook: 'str' object has no attribute 'get'
+2025-07-17 14:53:44,562 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 14:53:44] "[35m[1mPOST /webhook HTTP/1.1[0m" 500 -
+2025-07-17 14:53:45,413 - __main__ - ERROR - Error processing webhook: 'str' object has no attribute 'get'
+2025-07-17 14:53:45,414 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 14:53:45] "[35m[1mPOST /webhook HTTP/1.1[0m" 500 -
+2025-07-17 14:53:46,712 - __main__ - ERROR - Error processing webhook: 'str' object has no attribute 'get'
+2025-07-17 14:53:46,713 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 14:53:46] "[35m[1mPOST /webhook HTTP/1.1[0m" 500 -
+2025-07-17 14:53:48,561 - __main__ - ERROR - Error processing webhook: 'str' object has no attribute 'get'
+2025-07-17 14:53:48,562 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 14:53:48] "[35m[1mPOST /webhook HTTP/1.1[0m" 500 -
+2025-07-17 14:53:51,972 - __main__ - ERROR - Error processing webhook: 'str' object has no attribute 'get'
+2025-07-17 14:53:51,973 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 14:53:51] "[35m[1mPOST /webhook HTTP/1.1[0m" 500 -
+2025-07-17 14:53:53,478 - __main__ - ERROR - Error processing webhook: 'str' object has no attribute 'get'
+2025-07-17 14:53:53,478 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 14:53:53] "[35m[1mPOST /webhook HTTP/1.1[0m" 500 -
+2025-07-17 14:58:17,634 - __main__ - INFO - Starting webhook server on 127.0.0.1:8080
+2025-07-17 14:58:17,634 - __main__ - INFO - Running in production mode - configure nginx to proxy to this server
+2025-07-17 14:58:17,634 - __main__ - INFO - Webhook URL should be: https://your-domain.com/dropbox-webhook
+2025-07-17 14:58:17,634 - __main__ - INFO - Monitoring folder: /All files/Video Content/Final Cuts
+ * Serving Flask app 'webhook_server'
+ * Debug mode: off
+2025-07-17 14:58:17,636 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-07-17 14:58:17,636 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-17 14:59:04,045 - __main__ - INFO - Received webhook notification
+2025-07-17 14:59:04,045 - dropbox - INFO - Refreshing access token.
+2025-07-17 14:59:04,308 - dropbox - INFO - Request to files/list_folder
+2025-07-17 14:59:04,511 - __main__ - ERROR - Error listing folder changes: BadInputError('8b7611257c8f4ce1a36a147669dab240', 'Error in call to API function "files/list_folder": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 14:59:04,512 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 14:59:04] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 14:59:28,827 - __main__ - INFO - Starting webhook server on 127.0.0.1:8080
+2025-07-17 14:59:28,828 - __main__ - INFO - Running in production mode - configure nginx to proxy to this server
+2025-07-17 14:59:28,828 - __main__ - INFO - Webhook URL should be: https://your-domain.com/dropbox-webhook
+2025-07-17 14:59:28,828 - __main__ - INFO - Monitoring folder: /All files/Video Content/Final Cuts
+ * Serving Flask app 'webhook_server'
+ * Debug mode: off
+2025-07-17 14:59:28,830 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-07-17 14:59:28,830 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-17 14:59:32,354 - __main__ - INFO - Starting webhook server on 127.0.0.1:8080
+2025-07-17 14:59:32,354 - __main__ - INFO - Running in production mode - configure nginx to proxy to this server
+2025-07-17 14:59:32,354 - __main__ - INFO - Webhook URL should be: https://your-domain.com/dropbox-webhook
+2025-07-17 14:59:32,354 - __main__ - INFO - Monitoring folder: /All files/Video Content/Final Cuts
+ * Serving Flask app 'webhook_server'
+ * Debug mode: off
+2025-07-17 14:59:32,356 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-07-17 14:59:32,356 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-17 14:59:41,219 - __main__ - INFO - Received webhook notification
+2025-07-17 14:59:41,219 - dropbox - INFO - Refreshing access token.
+2025-07-17 14:59:41,505 - dropbox - INFO - Request to files/list_folder
+2025-07-17 14:59:41,701 - __main__ - ERROR - Error listing folder changes: BadInputError('eb94b10103234cd79680f010236501df', 'Error in call to API function "files/list_folder": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 14:59:41,701 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 14:59:41] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 15:01:28,098 - __main__ - INFO - Starting webhook server on 127.0.0.1:8080
+2025-07-17 15:01:28,098 - __main__ - INFO - Running in production mode - configure nginx to proxy to this server
+2025-07-17 15:01:28,098 - __main__ - INFO - Webhook URL should be: https://your-domain.com/dropbox-webhook
+2025-07-17 15:01:28,098 - __main__ - INFO - Monitoring folder: /All files/Video Content/Final Cuts
+ * Serving Flask app 'webhook_server'
+ * Debug mode: off
+2025-07-17 15:01:28,101 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-07-17 15:01:28,101 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-17 15:01:31,696 - __main__ - INFO - Starting webhook server on 127.0.0.1:8080
+2025-07-17 15:01:31,696 - __main__ - INFO - Running in production mode - configure nginx to proxy to this server
+2025-07-17 15:01:31,696 - __main__ - INFO - Webhook URL should be: https://your-domain.com/dropbox-webhook
+2025-07-17 15:01:31,696 - __main__ - INFO - Monitoring folder: /All files/Video Content/Final Cuts
+ * Serving Flask app 'webhook_server'
+ * Debug mode: off
+2025-07-17 15:01:31,698 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-07-17 15:01:31,698 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-17 15:06:15,326 - __main__ - INFO - Received webhook notification
+2025-07-17 15:06:15,327 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:06:15,620 - dropbox - INFO - Request to files/list_folder
+2025-07-17 15:06:15,883 - __main__ - ERROR - Error listing folder changes: ApiError('a83b54f9d3c142f89dc6118a06e170ac', ListFolderError('path', LookupError('not_found', None)))
+2025-07-17 15:06:15,884 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 15:06:15] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 15:06:33,895 - __main__ - INFO - Received webhook notification
+2025-07-17 15:06:33,895 - dropbox - INFO - Request to files/list_folder
+2025-07-17 15:06:34,168 - __main__ - ERROR - Error listing folder changes: ApiError('694b5f0bc87f45958731a71dab6844d8', ListFolderError('path', LookupError('not_found', None)))
+2025-07-17 15:06:34,168 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 15:06:34] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 15:06:35,826 - __main__ - INFO - Received webhook notification
+2025-07-17 15:06:35,827 - dropbox - INFO - Request to files/list_folder
+2025-07-17 15:06:36,095 - __main__ - ERROR - Error listing folder changes: ApiError('e84939ceb17a42d0b678d25408f4bdee', ListFolderError('path', LookupError('not_found', None)))
+2025-07-17 15:06:36,095 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 15:06:36] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 15:07:03,510 - __main__ - INFO - Received webhook notification
+2025-07-17 15:07:03,510 - dropbox - INFO - Request to files/list_folder
+2025-07-17 15:07:03,776 - __main__ - ERROR - Error listing folder changes: ApiError('7ce32703431f48bfb555d1376501fc4b', ListFolderError('path', LookupError('not_found', None)))
+2025-07-17 15:07:03,776 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 15:07:03] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 15:08:42,847 - __main__ - INFO - Received webhook notification
+2025-07-17 15:08:42,847 - dropbox - INFO - Request to files/list_folder
+2025-07-17 15:08:43,175 - __main__ - ERROR - Error listing folder changes: ApiError('109360edfaf149eda3689e80f87c6ed9', ListFolderError('path', LookupError('not_found', None)))
+2025-07-17 15:08:43,175 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 15:08:43] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 15:08:44,563 - __main__ - INFO - Received webhook notification
+2025-07-17 15:08:44,564 - dropbox - INFO - Request to files/list_folder
+2025-07-17 15:08:44,830 - __main__ - ERROR - Error listing folder changes: ApiError('1e5a5eb313024190bb7cb2ce77628593', ListFolderError('path', LookupError('not_found', None)))
+2025-07-17 15:08:44,831 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 15:08:44] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 15:08:45,412 - __main__ - INFO - Received webhook notification
+2025-07-17 15:08:45,413 - dropbox - INFO - Request to files/list_folder
+2025-07-17 15:08:45,693 - __main__ - ERROR - Error listing folder changes: ApiError('88c8b512a6b64454b0bffeac2a2fb0c4', ListFolderError('path', LookupError('not_found', None)))
+2025-07-17 15:08:45,694 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 15:08:45] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 15:08:46,701 - __main__ - INFO - Received webhook notification
+2025-07-17 15:08:46,701 - dropbox - INFO - Request to files/list_folder
+2025-07-17 15:08:46,994 - __main__ - ERROR - Error listing folder changes: ApiError('04dd339b197d4f1d916245cf2858401d', ListFolderError('path', LookupError('not_found', None)))
+2025-07-17 15:08:46,995 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 15:08:46] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 15:08:48,555 - __main__ - INFO - Received webhook notification
+2025-07-17 15:08:48,555 - dropbox - INFO - Request to files/list_folder
+2025-07-17 15:08:48,865 - __main__ - ERROR - Error listing folder changes: ApiError('7db7243e91544c3195a115b874e38249', ListFolderError('path', LookupError('not_found', None)))
+2025-07-17 15:08:48,865 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 15:08:48] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 15:08:51,982 - __main__ - INFO - Received webhook notification
+2025-07-17 15:08:51,983 - dropbox - INFO - Request to files/list_folder
+2025-07-17 15:08:52,238 - __main__ - ERROR - Error listing folder changes: ApiError('7e6c4f5c2fcf454d82bf88393593f61d', ListFolderError('path', LookupError('not_found', None)))
+2025-07-17 15:08:52,239 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 15:08:52] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 15:08:53,474 - __main__ - INFO - Received webhook notification
+2025-07-17 15:08:53,475 - dropbox - INFO - Request to files/list_folder
+2025-07-17 15:08:53,738 - __main__ - ERROR - Error listing folder changes: ApiError('6f350994a768419488f5cb5c24abb494', ListFolderError('path', LookupError('not_found', None)))
+2025-07-17 15:08:53,739 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 15:08:53] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 15:11:50,088 - __main__ - INFO - Received webhook notification
+2025-07-17 15:11:50,088 - dropbox - INFO - Request to files/list_folder
+2025-07-17 15:11:50,847 - __main__ - ERROR - Error listing folder changes: ApiError('1015b7bbe399498d93d82e5d962e4be5', ListFolderError('path', LookupError('not_found', None)))
+2025-07-17 15:11:50,847 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 15:11:50] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 15:14:25,087 - __main__ - INFO - Starting webhook server on 127.0.0.1:8080
+2025-07-17 15:14:25,088 - __main__ - INFO - Running in production mode - configure nginx to proxy to this server
+2025-07-17 15:14:25,088 - __main__ - INFO - Webhook URL should be: https://your-domain.com/dropbox-webhook
+2025-07-17 15:14:25,088 - __main__ - INFO - Monitoring folder: /Video Content/Final Cuts
+ * Serving Flask app 'webhook_server'
+ * Debug mode: off
+2025-07-17 15:14:25,090 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-07-17 15:14:25,090 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-17 15:14:45,774 - __main__ - INFO - Received webhook notification
+2025-07-17 15:14:45,774 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:14:46,068 - dropbox - INFO - Request to files/list_folder
+2025-07-17 15:14:46,410 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 15:14:46] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 15:15:31,041 - __main__ - INFO - Starting webhook server on 127.0.0.1:8080
+2025-07-17 15:15:31,041 - __main__ - INFO - Running in production mode - configure nginx to proxy to this server
+2025-07-17 15:15:31,041 - __main__ - INFO - Webhook URL should be: https://your-domain.com/dropbox-webhook
+2025-07-17 15:15:31,041 - __main__ - INFO - Monitoring folder: /Video Content/Final Cuts/YouTube
+ * Serving Flask app 'webhook_server'
+ * Debug mode: off
+2025-07-17 15:15:31,043 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-07-17 15:15:31,043 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-17 15:15:38,041 - __main__ - INFO - Received webhook notification
+2025-07-17 15:15:38,041 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:38,300 - dropbox - INFO - Request to files/list_folder
+2025-07-17 15:15:38,958 - __main__ - INFO - New video file detected: Counter punching masterclass RAW AUDIO.mp4
+2025-07-17 15:15:38,959 - __main__ - INFO - New video file detected: Types Of Guards HE YT FINAL.mov
+2025-07-17 15:15:38,960 - __main__ - INFO - New video file detected: Heavy Bag Follow Along.mov
+2025-07-17 15:15:38,961 - __main__ - INFO - New video file detected: Off The Ropes YT HE Final.mov
+2025-07-17 15:15:38,962 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAAXg.json
+2025-07-17 15:15:38,962 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAB4A.json
+2025-07-17 15:15:38,963 - __main__ - INFO - New video file detected: 5 Footwork Tricks YT.mov
+2025-07-17 15:15:38,964 - __main__ - INFO - New video file detected: 5 Footwork Tricks YT(1).mov
+2025-07-17 15:15:38,964 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAABag.json
+2025-07-17 15:15:38,965 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAACJg.json
+2025-07-17 15:15:38,971 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAACUw.json
+2025-07-17 15:15:38,973 - __main__ - INFO - New video file detected: Core Strength YT.mov
+2025-07-17 15:15:38,974 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAACUA.json
+2025-07-17 15:15:38,975 - __main__ - INFO - New video file detected: Beginner to Boxer V2.mp4
+2025-07-17 15:15:38,977 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAACZA.json
+2025-07-17 15:15:38,979 - __main__ - INFO - New video file detected: Boxing On Ice Final.mov
+2025-07-17 15:15:38,980 - __main__ - INFO - New video file detected: Creating Angles Draft.mov
+2025-07-17 15:15:38,980 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAACjA.json
+2025-07-17 15:15:38,981 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAACnw.json
+2025-07-17 15:15:38,982 - __main__ - INFO - New video file detected: Head Movement Drills Final.mov
+2025-07-17 15:15:38,987 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAACow.json
+2025-07-17 15:15:38,988 - __main__ - INFO - New video file detected: Telegraphing Punches Final.mov
+2025-07-17 15:15:38,989 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAACww.json
+2025-07-17 15:15:38,990 - __main__ - INFO - New video file detected: Premature Extension Final.mov
+2025-07-17 15:15:38,991 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAADKQ.json
+2025-07-17 15:15:38,992 - __main__ - INFO - New video file detected: Full Footwork Guide Final.mov
+2025-07-17 15:15:38,994 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAADAw.json
+2025-07-17 15:15:38,995 - __main__ - INFO - New video file detected: Lead Hook Variations FInal.mov
+2025-07-17 15:15:38,998 - __main__ - INFO - New video file detected: Full Defense Guide FInal.mov
+2025-07-17 15:15:39,000 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAADRw.json
+2025-07-17 15:15:39,001 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAADXQ.json
+2025-07-17 15:15:39,003 - __main__ - INFO - New video file detected: DEM Final.mp4
+2025-07-17 15:15:39,004 - __main__ - INFO - New video file detected: DEM YT Real Final.mov
+2025-07-17 15:15:39,009 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAADdA.json
+2025-07-17 15:15:39,012 - __main__ - INFO - New video file detected: OB&JT Boxing Back Workout Final.mov
+2025-07-17 15:15:39,012 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAADfg.json
+2025-07-17 15:15:39,013 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAADaA.json
+2025-07-17 15:15:39,014 - __main__ - INFO - New video file detected: Stop Reaching YT Video FINAL.mov
+2025-07-17 15:15:39,014 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAADrQ.json
+2025-07-17 15:15:39,015 - __main__ - INFO - New video file detected: Larry Holmes Jab.mov
+2025-07-17 15:15:39,017 - __main__ - INFO - New video file detected: Loma Angle Changes FINAL.mov
+2025-07-17 15:15:39,017 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAD0Q.json
+2025-07-17 15:15:39,018 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAD5Q.json
+2025-07-17 15:15:39,018 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAADug.json
+2025-07-17 15:15:39,018 - __main__ - INFO - New video file detected: Shadow Boxing Mastery FINAL.mov
+2025-07-17 15:15:39,021 - __main__ - INFO - New video file detected: Sparring Tips FINAL.mov
+2025-07-17 15:15:39,022 - __main__ - INFO - New video file detected: Jab Fatigue YT FINAL.mov
+2025-07-17 15:15:39,022 - __main__ - INFO - New video file detected: Every Punch Taking Head Off Center FINAL.mov
+2025-07-17 15:15:39,023 - __main__ - INFO - New video file detected: Hip Rotation FINAL.mov
+2025-07-17 15:15:39,023 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAEEA.json
+2025-07-17 15:15:39,024 - __main__ - INFO - New video file detected: Sparring Checklist FINAL.mov
+2025-07-17 15:15:39,025 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAELA.json
+2025-07-17 15:15:39,025 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAEGg.json
+2025-07-17 15:15:39,025 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAEWA.json
+2025-07-17 15:15:39,025 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAD-w.json
+2025-07-17 15:15:39,026 - __main__ - INFO - New video file detected: Avoiding Punches FINAL.mov
+2025-07-17 15:15:39,026 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAEWw.json
+2025-07-17 15:15:39,029 - __main__ - INFO - New video file detected: Kinetic Chain.mov
+2025-07-17 15:15:39,029 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAEZg.json
+2025-07-17 15:15:39,030 - __main__ - INFO - New video file detected: Pressure Fighter FINAL.mov
+2025-07-17 15:15:39,031 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAE_g.json
+2025-07-17 15:15:39,031 - __main__ - INFO - New video file detected: 100 Counters FINAL.mov
+2025-07-17 15:15:39,032 - __main__ - INFO - New video file detected: Beginner Combos FINAL.mov
+2025-07-17 15:15:39,033 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAEqg.json
+2025-07-17 15:15:39,033 - __main__ - INFO - New video file detected: Sparring Drills FINAL.mov
+2025-07-17 15:15:39,034 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAFOw.json
+2025-07-17 15:15:39,034 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAFDA.json
+2025-07-17 15:15:39,035 - __main__ - INFO - New video file detected: Hand Wrapping FINAL.mov
+2025-07-17 15:15:39,037 - __main__ - INFO - New video file detected: Beginner to Boxer V2.mov
+2025-07-17 15:15:39,037 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAFdQ.json
+2025-07-17 15:15:39,039 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAFow.json
+2025-07-17 15:15:39,039 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAFww.json
+2025-07-17 15:15:39,039 - __main__ - INFO - New video file detected: 2 Phase Combos FINAL.mov
+2025-07-17 15:15:39,040 - __main__ - INFO - New video file detected: Brutal Boxing Truth.mov
+2025-07-17 15:15:39,041 - __main__ - INFO - New video file detected: Punches 1-10 FINAL.mov
+2025-07-17 15:15:39,041 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAFzw.json
+2025-07-17 15:15:39,043 - __main__ - INFO - New video file detected: Lead Hook Masterclass FINAL.mov
+2025-07-17 15:15:39,043 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAGBw.json
+2025-07-17 15:15:39,044 - __main__ - INFO - New video file detected: Head Movement FINAL.mov
+2025-07-17 15:15:39,044 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAF4A.json
+2025-07-17 15:15:39,044 - __main__ - INFO - New video file detected: Defense Combos FINAL.mov
+2025-07-17 15:15:39,045 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAGKQ.json
+2025-07-17 15:15:39,045 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAGEQ.json
+2025-07-17 15:15:39,046 - __main__ - INFO - New video file detected: Boxing Music FINAL.mov
+2025-07-17 15:15:39,047 - __main__ - INFO - New video file detected: Liver Shot.mov
+2025-07-17 15:15:39,047 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAGOg.json
+2025-07-17 15:15:39,048 - __main__ - INFO - New video file detected: Hand Defenses.mov
+2025-07-17 15:15:39,048 - __main__ - INFO - New video file detected: 6 Non-conventional punches.mov
+2025-07-17 15:15:39,049 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAGgA.json
+2025-07-17 15:15:39,049 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAGXA.json
+2025-07-17 15:15:39,049 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAGdA.json
+2025-07-17 15:15:39,050 - __main__ - INFO - New video file detected: Fear Of Being KO.mov
+2025-07-17 15:15:39,052 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAGkw.json
+2025-07-17 15:15:39,053 - __main__ - INFO - New video file detected: Punching Power FINAL.mov
+2025-07-17 15:15:39,054 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAGsg.json
+2025-07-17 15:15:39,054 - __main__ - INFO - New video file detected: Proper Fatty Bum Bum.mov
+2025-07-17 15:15:39,055 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,056 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,056 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAG7Q.json
+2025-07-17 15:15:39,057 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,057 - __main__ - INFO - New video file detected: Stop Pushing Punches FINAL.mov
+2025-07-17 15:15:39,057 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,058 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAHBg.json
+2025-07-17 15:15:39,058 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,060 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,062 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,062 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,064 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,064 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,085 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,065 - __main__ - INFO - New video file detected: S&C For Boxers.mov
+2025-07-17 15:15:39,085 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,066 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,090 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAHaA.json
+2025-07-17 15:15:39,091 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,094 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,067 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,068 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,069 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,128 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,070 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,072 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,078 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,085 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,065 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAHKw.json
+2025-07-17 15:15:39,151 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,155 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,067 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,067 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,068 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,101 - __main__ - INFO - New video file detected: 50 Counters FINAL.mov
+2025-07-17 15:15:39,119 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,125 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,069 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,143 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,065 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,096 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,166 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,180 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,190 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,192 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAHgQ.json
+2025-07-17 15:15:39,192 - __main__ - INFO - New video file detected: 4 Punch Setups.mov
+2025-07-17 15:15:39,196 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,198 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,280 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,340 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,345 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAHkw.json
+2025-07-17 15:15:39,370 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,375 - __main__ - INFO - New video file detected: Dempsey Shift.mov
+2025-07-17 15:15:39,411 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,451 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,452 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,445 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,414 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,460 - __main__ - INFO - New video file detected: Brendan Ingles FINAL.mov
+2025-07-17 15:15:39,460 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,486 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,461 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAHpA.json
+2025-07-17 15:15:39,502 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,540 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,511 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAHuA.json
+2025-07-17 15:15:39,524 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,532 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,536 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,524 - __main__ - INFO - New video file detected: 5 Pillars Of Boxing.mov
+2025-07-17 15:15:39,543 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,546 - __main__ - INFO - New video file detected: 3 Boxing Styles FINAL.mov
+2025-07-17 15:15:39,543 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,561 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,557 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,565 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAH0w.json
+2025-07-17 15:15:39,614 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,567 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAIGQ.json
+2025-07-17 15:15:39,583 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,586 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,696 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,610 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,798 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,567 - __main__ - INFO - New video file detected: 55 Minutes Boxing Gold.mov
+2025-07-17 15:15:39,802 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,685 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,686 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('eedc8e4d4f6d43b2953e6d78c8105e79', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:39,612 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,739 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,753 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,753 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,761 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,762 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,786 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,787 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,788 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,613 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,800 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,661 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,805 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,813 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('e410fc48054b4772b77da1a55a92b090', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:39,815 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,821 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAIhQ.json
+2025-07-17 15:15:39,825 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,825 - __main__ - INFO - New video file detected: Lead Hand Mastery FINAL.mov
+2025-07-17 15:15:39,826 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,829 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,829 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('3d59a0226f084daf905032a8500d6254', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:39,830 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,833 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAACJg: BadInputError('eedc8e4d4f6d43b2953e6d78c8105e79', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:39,836 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,840 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,850 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAB4A: BadInputError('e410fc48054b4772b77da1a55a92b090', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:39,854 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAADdA: BadInputError('3d59a0226f084daf905032a8500d6254', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:39,854 - __main__ - INFO - New video file detected: 3 IQ Traps.mov
+2025-07-17 15:15:39,856 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:0dMRiZmExIsAAAAAAAAMpA.json
+2025-07-17 15:15:39,859 - __main__ - INFO - New video file detected: Defense Beginners.mov
+2025-07-17 15:15:39,860 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAJsg.json
+2025-07-17 15:15:39,861 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,861 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,862 - __main__ - INFO - New video file detected: Punching Technique FINAL.mov
+2025-07-17 15:15:39,864 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAJ5Q.json
+2025-07-17 15:15:39,864 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,865 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,865 - __main__ - INFO - New video file detected: What You Doing If Not Punching.mov
+2025-07-17 15:15:39,866 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,866 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAJ9A.json
+2025-07-17 15:15:39,868 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,870 - __main__ - INFO - New video file detected: Cross Mistakes.mov
+2025-07-17 15:15:39,871 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,872 - __main__ - INFO - New video file detected: 0714 (1).mov
+2025-07-17 15:15:39,873 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAKGQ.json
+2025-07-17 15:15:39,873 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,874 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAKNg.json
+2025-07-17 15:15:39,875 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 15:15:39] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 15:15:39,877 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAKFQ.json
+2025-07-17 15:15:39,877 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,878 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:15:39,907 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('5c35bc4ece014ee38aa149e6ba770801', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:39,907 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAACUA: BadInputError('5c35bc4ece014ee38aa149e6ba770801', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:39,954 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('68fc0ff955f4471ebdca7b320fccc945', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:39,954 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAADKQ: BadInputError('68fc0ff955f4471ebdca7b320fccc945', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:39,984 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:39,989 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('acca8eade3cc4225b6c68b0ab63d373b', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:39,989 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAEWA: BadInputError('acca8eade3cc4225b6c68b0ab63d373b', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:39,996 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('0a4c660a0dee4a53aea672d89aa5b59d', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:39,996 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAACZA: BadInputError('0a4c660a0dee4a53aea672d89aa5b59d', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,010 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('32bd7a518a544958be77130798c445cf', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,011 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAABag: BadInputError('32bd7a518a544958be77130798c445cf', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,023 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,032 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('13701b3190d64e199a0f16847a5f9533', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,032 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAADaA: BadInputError('13701b3190d64e199a0f16847a5f9533', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,033 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('54cff7a2273c40b1abf642a57fe24e5c', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,034 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('5ecd922dfc2e4849952bbe970d776ea2', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,034 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAHBg: BadInputError('54cff7a2273c40b1abf642a57fe24e5c', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,034 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('d907b532aff443d69aa1e9f250ca7a28', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,034 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAADrQ: BadInputError('5ecd922dfc2e4849952bbe970d776ea2', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,035 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAG7Q: BadInputError('d907b532aff443d69aa1e9f250ca7a28', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,037 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('93c8bf8966ba4439823a01f02252142b', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,038 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('7ead9f1ce287450fb4e0c0bc231c6528', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,038 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAELA: BadInputError('93c8bf8966ba4439823a01f02252142b', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,038 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAACjA: BadInputError('7ead9f1ce287450fb4e0c0bc231c6528', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,040 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('197948126b0049f582fb81bc2da11fc4', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,040 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAGsg: BadInputError('197948126b0049f582fb81bc2da11fc4', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,041 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('773cf178f5fd440cb33d5911ff321d45', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,041 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('16cfcdb0b56940c39e1ab03c0a13d8c3', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,042 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAACnw: BadInputError('773cf178f5fd440cb33d5911ff321d45', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,042 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAHaA: BadInputError('16cfcdb0b56940c39e1ab03c0a13d8c3', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,043 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('951da538906d4102afe045a8389d7193', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,045 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAAXg: BadInputError('951da538906d4102afe045a8389d7193', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,046 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,046 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('32af3b8a316343e6b875e5dc9ada0975', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,047 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('96d1cc062d1b46f79959d305c9e286cb', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,047 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAACUw: BadInputError('32af3b8a316343e6b875e5dc9ada0975', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,048 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAADug: BadInputError('96d1cc062d1b46f79959d305c9e286cb', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,050 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('0f970cc23c4a49ad866d345699743748', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,050 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAACow: BadInputError('0f970cc23c4a49ad866d345699743748', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,050 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('d3a119e67d644e9d84df3fec1cdd7f76', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,051 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAEZg: BadInputError('d3a119e67d644e9d84df3fec1cdd7f76', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,053 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,053 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,054 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,056 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('a3a372f840d24b7a8a4c9dbc16ee90b8', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,056 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAEEA: BadInputError('a3a372f840d24b7a8a4c9dbc16ee90b8', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,057 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,057 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('2d2b5f27f126417f9b52f297bd676883', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,060 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('91dc5beec7dc4f19986195c85f6ca399', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,060 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('0de81baec95d45b5b149e51047890996', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,060 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,061 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAHKw: BadInputError('2d2b5f27f126417f9b52f297bd676883', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,061 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('d569668fc5e449bd8a7aaa8a846c2344', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,062 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,062 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,062 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAADRw: BadInputError('91dc5beec7dc4f19986195c85f6ca399', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,062 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAEqg: BadInputError('0de81baec95d45b5b149e51047890996', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,064 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAADAw: BadInputError('d569668fc5e449bd8a7aaa8a846c2344', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,066 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,066 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,068 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,068 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,070 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,072 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('2d7677359ba54d2ab2577bbb1f9521d3', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,073 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,074 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,075 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,077 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAD-w: BadInputError('2d7677359ba54d2ab2577bbb1f9521d3', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,079 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,079 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,080 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,081 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,083 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('9014930971a949f19fd49ac2a7a920bc', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,083 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,083 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,086 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAD5Q: BadInputError('9014930971a949f19fd49ac2a7a920bc', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,087 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,092 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('1ebe45f9eeb944e7be4f34ab25417476', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,092 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAADfg: BadInputError('1ebe45f9eeb944e7be4f34ab25417476', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,138 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,159 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,185 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('ed27aeeb503844d5b3aa4f164a7ff58e', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,185 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAEWw: BadInputError('ed27aeeb503844d5b3aa4f164a7ff58e', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,205 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,220 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,225 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('1229f996a0df4a819e1a42c94bc3726b', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,225 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAFDA: BadInputError('1229f996a0df4a819e1a42c94bc3726b', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,228 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,230 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,235 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,237 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,244 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('9c4fbefe7fc846b79df8841557a79fe8', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,244 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAACww: BadInputError('9c4fbefe7fc846b79df8841557a79fe8', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,249 - dropbox - INFO - Request to users/get_current_account
+2025-07-17 15:15:40,253 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('ea230dcd248b4edeb0d5d33774a32fe0', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,253 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAE_g: BadInputError('ea230dcd248b4edeb0d5d33774a32fe0', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,256 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('1a0425a49f154d05b8a2cbf1e9d73d98', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,256 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAHkw: BadInputError('1a0425a49f154d05b8a2cbf1e9d73d98', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,260 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('5632d63f40cf4e1fb8e432cc00c4b8b7', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,261 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAADXQ: BadInputError('5632d63f40cf4e1fb8e432cc00c4b8b7', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,269 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('e0d9eff149cf49c69b18ec85c9fe0276', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,270 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('b5f52d51841c4c6a9c20f23de2790767', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,271 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('209cb44b313b4ed095da5aa7a42d4a8a', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,271 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAGBw: BadInputError('e0d9eff149cf49c69b18ec85c9fe0276', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,271 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAHgQ: BadInputError('b5f52d51841c4c6a9c20f23de2790767', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,272 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('66773bd1df684494911e4676df5b91ab', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,273 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('3cec7e4a6a754454aa64d7a6dd50e7e8', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,274 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('fa5d1c85c87147c4a041fef7997f79aa', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,274 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAHuA: BadInputError('209cb44b313b4ed095da5aa7a42d4a8a', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,276 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAFzw: BadInputError('66773bd1df684494911e4676df5b91ab', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,279 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAFOw: BadInputError('fa5d1c85c87147c4a041fef7997f79aa', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,280 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('d62dc7e97f754050ae96addba56fc0d5', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,281 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('2f2ffc5a7aec4c299e010c741b158b91', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,281 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('0610654511e44e408983a79868aeeee9', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,282 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('88eea3567980424b810d9e12e540d083', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,282 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('b21ed145bd5e487fb9ba42373b03061d', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,283 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('7dc1a83a660240bea721bdb9603207bc', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,283 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAGKQ: BadInputError('3cec7e4a6a754454aa64d7a6dd50e7e8', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,285 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('85c49db761d74e1180161317fdff014e', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,287 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('a639389925fa4dfd8a37cc7f56d01bd9', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,287 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAEGg: BadInputError('2f2ffc5a7aec4c299e010c741b158b91', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,288 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('468f126f9f2246ed92b864ad29f897de', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,288 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAFww: BadInputError('0610654511e44e408983a79868aeeee9', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,288 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAHpA: BadInputError('88eea3567980424b810d9e12e540d083', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,288 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('c47c8b4a06b4474f95f7e120b491a4d4', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,289 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAGXA: BadInputError('b21ed145bd5e487fb9ba42373b03061d', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,289 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAGdA: BadInputError('7dc1a83a660240bea721bdb9603207bc', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,289 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAGkw: BadInputError('d62dc7e97f754050ae96addba56fc0d5', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,289 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAFdQ: BadInputError('85c49db761d74e1180161317fdff014e', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,289 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAH0w: BadInputError('a639389925fa4dfd8a37cc7f56d01bd9', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,290 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAGOg: BadInputError('468f126f9f2246ed92b864ad29f897de', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,292 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('7c03c427153048f59d6fcaac45eb4dfd', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,293 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('54bbbdb59ec94b4e82cde94374e5a93c', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,295 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAGEQ: BadInputError('c47c8b4a06b4474f95f7e120b491a4d4', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,300 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAGgA: BadInputError('7c03c427153048f59d6fcaac45eb4dfd', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,301 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAFow: BadInputError('54bbbdb59ec94b4e82cde94374e5a93c', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,339 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('bc908da1fae6487095dcaee56727e374', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,339 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAIGQ: BadInputError('bc908da1fae6487095dcaee56727e374', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,360 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('4af59c928243417ab0048b7763beafea', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,360 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAIhQ: BadInputError('4af59c928243417ab0048b7763beafea', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,402 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('136141a33209438bb8ab7f14ad877823', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,403 - __main__ - ERROR - Error processing file id:0dMRiZmExIsAAAAAAAAMpA: BadInputError('136141a33209438bb8ab7f14ad877823', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,414 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('695f267f0e994775843266ac8ceea971', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,415 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAJ5Q: BadInputError('695f267f0e994775843266ac8ceea971', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,424 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('af390346e7ee4003b72830bbc26cc9e5', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,425 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAKFQ: BadInputError('af390346e7ee4003b72830bbc26cc9e5', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,431 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('9985f7ab1e5848ef874fa0632f430b7a', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,431 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAJsg: BadInputError('9985f7ab1e5848ef874fa0632f430b7a', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,433 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('76cafdb5a6624cf29096c1f745c2d877', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,433 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAKNg: BadInputError('76cafdb5a6624cf29096c1f745c2d877', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,434 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('0d6f442cfd094a45a8ab3b1a0f40c604', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,434 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAJ9A: BadInputError('0d6f442cfd094a45a8ab3b1a0f40c604', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,442 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('6b01b46aa102436984f90982dd56f42c', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,442 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAKGQ: BadInputError('6b01b46aa102436984f90982dd56f42c', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,963 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('760045c0d29741b487c44805f437ce63', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:40,963 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAD0Q: BadInputError('760045c0d29741b487c44805f437ce63', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:41,462 - pipeline_processor - ERROR - Error initializing Dropbox: BadInputError('1bae5c6177944a60a4730d41eec28a40', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:15:41,462 - __main__ - ERROR - Error processing file id:CxcjfpBq8f8AAAAAAAAF4A: BadInputError('1bae5c6177944a60a4730d41eec28a40', 'Error in call to API function "users/get_current_account": This API function operates on a single Dropbox account, but the OAuth 2 access token you provided is for an entire Dropbox Business team.  Since your API app key has team member file access permissions, you can operate on a team member\'s Dropbox by providing the "Dropbox-API-Select-User" HTTP header or "select_user" URL parameter to specify the exact user <https://www.dropbox.com/developers/documentation/http/teams>.')
+2025-07-17 15:16:04,092 - __main__ - INFO - Starting webhook server on 127.0.0.1:8080
+2025-07-17 15:16:04,092 - __main__ - INFO - Running in production mode - configure nginx to proxy to this server
+2025-07-17 15:16:04,092 - __main__ - INFO - Webhook URL should be: https://your-domain.com/dropbox-webhook
+2025-07-17 15:16:04,092 - __main__ - INFO - Monitoring folder: /Video Content/Final Cuts/YouTube
+ * Serving Flask app 'webhook_server'
+ * Debug mode: off
+2025-07-17 15:16:04,094 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-07-17 15:16:04,094 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-17 15:19:16,248 - __main__ - INFO - Received webhook notification
+2025-07-17 15:19:16,248 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:19:16,539 - dropbox - INFO - Request to files/list_folder
+2025-07-17 15:19:17,203 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 15:19:17] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 15:21:00,925 - __main__ - INFO - Received webhook notification
+2025-07-17 15:21:00,926 - dropbox - INFO - Request to files/list_folder
+2025-07-17 15:21:01,473 - __main__ - INFO - New video file detected: 0714 (1).mov
+2025-07-17 15:21:01,474 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 15:21:01] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 15:21:01,474 - __main__ - INFO - Created trigger file: /opt/new-yt/data/triggers/file_id:CxcjfpBq8f8AAAAAAAAKNw.json
+2025-07-17 15:21:01,516 - pipeline_processor - INFO - Successfully connected to Dropbox
+2025-07-17 15:21:01,516 - pipeline_processor - INFO - Processing file: 0714 (1).mov
+2025-07-17 15:21:01,516 - pipeline_processor - INFO - Downloading file: /Video Content/Final Cuts/YouTube/0714 (1).mov
+2025-07-17 15:21:01,516 - dropbox - INFO - Refreshing access token.
+2025-07-17 15:21:01,778 - dropbox - INFO - Request to files/download
+2025-07-17 15:22:22,124 - pipeline_processor - INFO - File downloaded successfully: /opt/new-yt/data/downloads/0714 (1).mov
+2025-07-17 15:22:23,010 - pipeline_processor - INFO - Video copied to clipper: /opt/clipper/data/input/0714 (1).mov
+2025-07-17 15:22:23,010 - pipeline_processor - INFO - Triggering clipper pipeline...
+2025-07-17 15:24:15,988 - pipeline_processor - INFO - Clipper pipeline completed successfully
+2025-07-17 15:24:15,988 - pipeline_processor - INFO - Successfully processed file: id:CxcjfpBq8f8AAAAAAAAKNw
+2025-07-17 15:24:16,179 - pipeline_processor - ERROR - Error sending Slack notification: The request to the Slack API failed. (url: https://www.slack.com/api/chat.postMessage)
+The server responded with: {'ok': False, 'error': 'channel_not_found'}
+2025-07-17 15:24:16,401 - pipeline_processor - INFO - Cleaned up: /opt/new-yt/data/downloads/0714 (1).mov
+2025-07-17 16:10:51,220 - __main__ - INFO - Received webhook notification
+2025-07-17 16:10:51,221 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:10:51,389 - __main__ - INFO - Received webhook notification
+2025-07-17 16:10:51,389 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:10:51,549 - __main__ - INFO - Received webhook notification
+2025-07-17 16:10:51,549 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:10:51,784 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:10:51] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:10:51,922 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:10:51] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:10:52,031 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:10:52] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:10:54,782 - __main__ - INFO - Received webhook notification
+2025-07-17 16:10:54,782 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:10:55,197 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:10:55] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:10:57,687 - __main__ - INFO - Received webhook notification
+2025-07-17 16:10:57,687 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:10:58,161 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:10:58] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:11:02,083 - __main__ - INFO - Received webhook notification
+2025-07-17 16:11:02,083 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:11:02,489 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:11:02] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:11:02,689 - __main__ - INFO - Received webhook notification
+2025-07-17 16:11:02,689 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:11:02,798 - __main__ - INFO - Received webhook notification
+2025-07-17 16:11:02,798 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:11:03,107 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:11:03] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:11:03,201 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:11:03] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:11:04,978 - __main__ - INFO - Received webhook notification
+2025-07-17 16:11:04,978 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:11:05,462 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:11:05] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:11:08,303 - __main__ - INFO - Received webhook notification
+2025-07-17 16:11:08,304 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:11:08,711 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:11:08] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:11:09,689 - __main__ - INFO - Received webhook notification
+2025-07-17 16:11:09,689 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:11:10,090 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:11:10] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:11:10,646 - __main__ - INFO - Received webhook notification
+2025-07-17 16:11:10,646 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:11:11,178 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:11:11] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:11:14,968 - __main__ - INFO - Received webhook notification
+2025-07-17 16:11:14,969 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:11:15,417 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:11:15] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:11:16,098 - __main__ - INFO - Received webhook notification
+2025-07-17 16:11:16,098 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:11:16,537 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:11:16] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:11:21,825 - __main__ - INFO - Received webhook notification
+2025-07-17 16:11:21,825 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:11:22,341 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:11:22] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:11:23,740 - __main__ - INFO - Received webhook notification
+2025-07-17 16:11:23,741 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:11:23,741 - __main__ - INFO - Received webhook notification
+2025-07-17 16:11:23,742 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:11:23,866 - __main__ - INFO - Received webhook notification
+2025-07-17 16:11:23,866 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:11:24,181 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:11:24] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:11:24,337 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:11:24] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:11:24,429 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:11:24] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:11:25,560 - __main__ - INFO - Received webhook notification
+2025-07-17 16:11:25,561 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:11:25,982 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:11:25] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:11:27,790 - __main__ - INFO - Received webhook notification
+2025-07-17 16:11:27,790 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:11:28,244 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:11:28] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:14:02,484 - __main__ - INFO - Received webhook notification
+2025-07-17 16:14:02,484 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:14:02,505 - __main__ - INFO - Received webhook notification
+2025-07-17 16:14:02,505 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:14:02,964 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:14:02] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:14:02,987 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:14:02] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:14:30,058 - __main__ - INFO - Received webhook notification
+2025-07-17 16:14:30,059 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:14:30,169 - __main__ - INFO - Received webhook notification
+2025-07-17 16:14:30,169 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:14:30,475 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:14:30] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:14:30,616 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:14:30] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:14:31,693 - __main__ - INFO - Received webhook notification
+2025-07-17 16:14:31,693 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:14:32,138 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:14:32] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:14:33,352 - __main__ - INFO - Received webhook notification
+2025-07-17 16:14:33,353 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:14:33,799 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:14:33] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:14:34,802 - __main__ - INFO - Received webhook notification
+2025-07-17 16:14:34,803 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:14:35,248 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:14:35] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:14:37,710 - __main__ - INFO - Received webhook notification
+2025-07-17 16:14:37,710 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:14:38,175 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:14:38] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:14:42,330 - __main__ - INFO - Received webhook notification
+2025-07-17 16:14:42,331 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:14:42,335 - __main__ - INFO - Received webhook notification
+2025-07-17 16:14:42,336 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:14:42,344 - __main__ - INFO - Received webhook notification
+2025-07-17 16:14:42,344 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:14:42,783 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:14:42] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:14:42,807 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:14:42] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:14:42,837 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:14:42] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:14:46,923 - __main__ - INFO - Received webhook notification
+2025-07-17 16:14:46,923 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:14:47,077 - __main__ - INFO - Received webhook notification
+2025-07-17 16:14:47,077 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:14:47,384 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:14:47] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:14:47,557 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:14:47] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:48:18,940 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:48:18] "GET /health HTTP/1.1" 200 -
+2025-07-17 16:48:38,993 - __main__ - INFO - Received webhook notification
+2025-07-17 16:48:38,994 - dropbox - INFO - Request to files/list_folder
+2025-07-17 16:48:39,449 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:48:39] "POST /webhook HTTP/1.1" 200 -
+2025-07-17 16:49:05,912 - __main__ - INFO - Starting webhook server on 127.0.0.1:8080
+2025-07-17 16:49:05,912 - __main__ - INFO - Running in production mode - configure nginx to proxy to this server
+2025-07-17 16:49:05,912 - __main__ - INFO - Webhook URL should be: https://your-domain.com/dropbox-webhook
+2025-07-17 16:49:05,912 - __main__ - INFO - Monitoring folder: /Video Content/Final Cuts/YouTube
+ * Serving Flask app 'webhook_server'
+ * Debug mode: off
+2025-07-17 16:49:05,917 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-07-17 16:49:05,917 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-17 16:49:10,911 - __main__ - INFO - Starting webhook server on 127.0.0.1:8080
+2025-07-17 16:49:10,911 - __main__ - INFO - Running in production mode - configure nginx to proxy to this server
+2025-07-17 16:49:10,911 - __main__ - INFO - Webhook URL should be: https://your-domain.com/dropbox-webhook
+2025-07-17 16:49:10,912 - __main__ - INFO - Monitoring folder: /Video Content/Final Cuts/YouTube
+2025-07-17 16:49:31,155 - __main__ - INFO - Starting webhook server on 127.0.0.1:8080
+2025-07-17 16:49:31,156 - __main__ - INFO - Running in production mode - configure nginx to proxy to this server
+2025-07-17 16:49:31,156 - __main__ - INFO - Webhook URL should be: https://your-domain.com/dropbox-webhook
+2025-07-17 16:49:31,156 - __main__ - INFO - Monitoring folder: /Video Content/Final Cuts/YouTube
+ * Serving Flask app 'webhook_server'
+ * Debug mode: off
+2025-07-17 16:49:31,158 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-07-17 16:49:31,158 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-17 16:51:42,878 - __main__ - INFO - Starting webhook server on 127.0.0.1:8080
+2025-07-17 16:51:42,878 - __main__ - INFO - Running in production mode - configure nginx to proxy to this server
+2025-07-17 16:51:42,878 - __main__ - INFO - Webhook URL should be: https://your-domain.com/dropbox-webhook
+2025-07-17 16:51:42,879 - __main__ - INFO - Monitoring folder: /Video Content/Final Cuts/YouTube
+2025-07-17 16:53:05,647 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 16:53:05] "GET /health HTTP/1.1" 200 -
+2025-07-17 16:59:29,466 - __main__ - INFO - Starting webhook server on 127.0.0.1:8080
+2025-07-17 16:59:29,466 - __main__ - INFO - Running in production mode - configure nginx to proxy to this server
+2025-07-17 16:59:29,466 - __main__ - INFO - Webhook URL should be: https://your-domain.com/dropbox-webhook
+2025-07-17 16:59:29,466 - __main__ - INFO - Monitoring folder: /Video Content/Final Cuts/YouTube
+ * Serving Flask app 'webhook_server'
+ * Debug mode: off
+2025-07-17 16:59:29,469 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-07-17 16:59:29,469 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-17 17:03:49,084 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 17:03:49] "GET /health HTTP/1.1" 200 -
