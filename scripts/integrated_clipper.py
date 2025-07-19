@@ -17,8 +17,13 @@ from typing import List, Dict, Optional
 # Add clipper_core to path
 sys.path.insert(0, str(Path(__file__).parent.parent / "clipper_core"))
 
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from dotenv import load_dotenv
 from openai import OpenAI
+from config import Config
+from storage_box_client import StorageBoxClient
 
 # Load environment variables
 load_dotenv()
@@ -46,8 +51,9 @@ ROOT_NAMESPACE_ID = os.getenv("ROOT_NAMESPACE_ID")
 # Output folder for IG clips
 DROPBOX_OUTPUT_FOLDER = "/Video Content/Final Cuts/Repurposed YT Clips For IG"
 
-# Slack webhook URL
-SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
+# Slack configuration
+SLACK_BOT_TOKEN = os.getenv("SLACK_BOT_TOKEN")
+SLACK_CHANNEL = os.getenv("SLACK_CHANNEL", "C092ALGA4MT")
 
 # Directories
 BASE_DIR = Path(__file__).parent.parent
@@ -62,6 +68,8 @@ class IntegratedClipper:
     def __init__(self):
         self.openai_client = OpenAI(api_key=OPENAI_API_KEY)
         self.dropbox_client = self._get_dropbox_client()
+        self.config = Config()
+        self.storage_box_client = StorageBoxClient(self.config)
         
     def _get_dropbox_client(self):
         """Get Dropbox client using team refresh token"""
@@ -318,10 +326,66 @@ class IntegratedClipper:
         
         return uploaded_files
     
+    def upload_to_storage_box(self, video_path: Path, clips_data: List[Dict], transcript: str) -> bool:
+        """Upload full video and metadata to storage box"""
+        logger.info(f"Uploading full video and metadata to storage box")
+        
+        try:
+            # Prepare metadata for storage box
+            storage_metadata = {
+                "video_name": video_path.name,
+                "video_stem": video_path.stem,
+                "processed_at": datetime.now().isoformat(),
+                "transcript": transcript,
+                "clips_identified": []
+            }
+            
+            # Add clip info to metadata (timestamps and descriptions, not the actual clip files)
+            for i, clip_data in enumerate(clips_data):
+                storage_metadata["clips_identified"].append({
+                    "clip_number": i + 1,
+                    "title": clip_data.get("title", f"Clip {i+1}"),
+                    "description": clip_data.get("description", ""),
+                    "start_time": clip_data.get("start_time", ""),
+                    "end_time": clip_data.get("end_time", "")
+                })
+            
+            if not self.storage_box_client.connect():
+                return False
+                
+            try:
+                # Upload full video
+                video_filename = video_path.name
+                video_success = self.storage_box_client.upload_video(str(video_path), video_filename)
+                
+                # Upload metadata JSON
+                metadata_filename = f"{video_path.stem}_metadata.json"
+                json_success = self.storage_box_client.upload_json(storage_metadata, metadata_filename)
+                
+                success = video_success and json_success
+                
+                if success:
+                    logger.info("Storage box upload completed successfully")
+                else:
+                    logger.error("Storage box upload failed")
+                    
+                return success
+                
+            finally:
+                self.storage_box_client.disconnect()
+            
+        except Exception as e:
+            logger.error(f"Failed to upload to storage box: {e}")
+            return False
+    
     def send_slack_notification(self, video_name: str, clips: List[Dict[str, str]]):
-        """Send notification to Slack webhook with shareable links"""
+        """Send notification to Slack using bot token"""
         logger.info("Sending Slack notification")
         
+        if not SLACK_BOT_TOKEN:
+            logger.error("SLACK_BOT_TOKEN not configured")
+            return
+            
         # Build clips list with links
         clips_text = ""
         for clip in clips:
@@ -330,33 +394,55 @@ class IntegratedClipper:
             else:
                 clips_text += f"• {clip['name']} (link failed)\n"
         
-        message = {
-            "text": f"🎬 New IG clips ready from: {video_name}",
-            "blocks": [
-                {
-                    "type": "section",
-                    "text": {
-                        "type": "mrkdwn",
-                        "text": f"*🎬 New IG Clips Ready!*\n\n*Source Video:* {video_name}\n*Clips Generated:* {len(clips)}\n*Location:* {DROPBOX_OUTPUT_FOLDER}"
-                    }
-                },
-                {
-                    "type": "section",
-                    "text": {
-                        "type": "mrkdwn",
-                        "text": f"*Clips:*\n{clips_text}"
-                    }
-                }
-            ]
-        }
-        
         try:
-            response = requests.post(SLACK_WEBHOOK_URL, json=message)
-            if response.status_code == 200:
-                logger.info("Slack notification sent successfully")
-            else:
-                logger.error(f"Slack notification failed: {response.status_code}")
+            from slack_sdk import WebClient
+            from slack_sdk.errors import SlackApiError
+            
+            client = WebClient(token=SLACK_BOT_TOKEN)
+            
+            # First, try to join the channel in case bot isn't a member
+            try:
+                client.conversations_join(channel=SLACK_CHANNEL)
+            except SlackApiError as e:
+                if e.response['error'] not in ['already_in_channel', 'is_archived']:
+                    logger.warning(f"Could not join channel: {e.response['error']}")
+            
+            # Send the message
+            response = client.chat_postMessage(
+                channel=SLACK_CHANNEL,
+                text=f"🎬 New IG clips ready from: {video_name}",
+                blocks=[
+                    {
+                        "type": "section",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": f"*🎬 New IG Clips Ready!*\n\n*Source Video:* {video_name}\n*Clips Generated:* {len(clips)}\n*Location:* {DROPBOX_OUTPUT_FOLDER}"
+                        }
+                    },
+                    {
+                        "type": "section",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": f"*Clips:*\n{clips_text}"
+                        }
+                    }
+                ]
+            )
+            logger.info(f"Slack notification sent successfully to channel {SLACK_CHANNEL}")
                 
+        except SlackApiError as e:
+            logger.error(f"Slack API error: {e.response['error']}")
+            # Fallback to posting in a channel the bot can access
+            if e.response['error'] == 'channel_not_found':
+                try:
+                    # Try the general channel as fallback
+                    response = client.chat_postMessage(
+                        channel='C0805EF1SN9',  # general channel
+                        text=f"🎬 New IG clips ready from: {video_name} (Note: Could not post to {SLACK_CHANNEL})"
+                    )
+                    logger.info("Slack notification sent to general channel as fallback")
+                except:
+                    logger.error("Could not send to any channel")
         except Exception as e:
             logger.error(f"Failed to send Slack notification: {e}")
     
@@ -393,10 +479,17 @@ class IntegratedClipper:
             # Step 4: Upload to Dropbox
             uploaded_files = self.upload_clips_to_dropbox(extracted_clips, video_path.stem)
             
-            # Step 5: Send Slack notification
+            # Step 5: Upload to Storage Box (full video + metadata)
+            storage_success = self.upload_to_storage_box(video_path, clips_data, transcript)
+            if storage_success:
+                logger.info("Storage box upload completed successfully")
+            else:
+                logger.warning("Storage box upload failed, but continuing with pipeline")
+            
+            # Step 6: Send Slack notification
             self.send_slack_notification(video_path.name, uploaded_files)
             
-            # Step 6: Cleanup temp files
+            # Step 7: Cleanup temp files
             for clip in extracted_clips:
                 try:
                     clip.unlink()

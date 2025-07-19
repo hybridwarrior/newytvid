@@ -53,3 +53,14 @@ data/triggers/
 # Temporary files
 *.tmp
 *.temp
+
+# OAuth and authentication files
+oauth2.json
+client_secrets.json
+
+# State files
+data/processed_files.json
+
+# Backup files
+*.bak
+*.backup

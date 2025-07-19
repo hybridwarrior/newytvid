@@ -36,6 +36,12 @@ class Config:
     # Dropbox Output Configuration
     DROPBOX_OUTPUT_FOLDER_URL = os.getenv('DROPBOX_OUTPUT_FOLDER_URL')  # Shareable link to Dropbox output folder
     
+    # Storage Box Configuration
+    STORAGE_HOST = os.getenv('STORAGE_HOST')
+    STORAGE_USER = os.getenv('STORAGE_USER')
+    STORAGE_PASSWORD = os.getenv('STORAGE_PASSWORD')
+    STORAGE_BASE_PATH = os.getenv('STORAGE_BASE_PATH', '/BoxingDB/youtube')
+    
     # Webhook Configuration
     WEBHOOK_PORT = int(os.getenv('WEBHOOK_PORT', '8080'))
     WEBHOOK_HOST = os.getenv('WEBHOOK_HOST', '127.0.0.1')  # Use 127.0.0.1 for production with nginx
